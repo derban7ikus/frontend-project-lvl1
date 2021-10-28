@@ -1,8 +1,17 @@
-name: hello-world
-on: push
+name: linter-check
+
+on:
+  - push
+  - pull_request
+
 jobs:
-  my-job:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: my-step
+      - name: npm install
+        run: make install
+        env:
+          CI: true
+      - name: Run linter
         run: make lint
