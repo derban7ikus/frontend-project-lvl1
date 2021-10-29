@@ -1,5 +1,3 @@
-install: npm ci
-
 brain-games:
 		node bin/brain-games.js
 
@@ -9,4 +7,7 @@ publish:
 lint:
 		npx eslint .
 
+install: install-deps
 
+install-deps:
+	npm ci
