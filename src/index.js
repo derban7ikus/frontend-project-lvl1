@@ -9,7 +9,7 @@ const gameStart = (rules, questionAndAnswer) => {
   for (let round = 1; round <= rounds; round += 1) {
     const roundData = questionAndAnswer();
     const question = roundData[0];
-    const correctAnswer = roundData[1];
+    const correctAnswer = String(roundData[1]);
     console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer === correctAnswer) {
