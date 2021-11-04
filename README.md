@@ -4,3 +4,4 @@
 [![Actions Status](https://github.com/derban7ikus/frontend-project-lvl1/workflows/Linter-Status/badge.svg)](https://github.com/derban7ikus/frontend-project-lvl1/actions)
 [![asciicast](https://asciinema.org/a/q4PuG05bZhqPUKqe423vr8Yac.svg)](https://asciinema.org/a/q4PuG05bZhqPUKqe423vr8Yac)
 [![asciicast](https://asciinema.org/a/oBkYQoK3VvNPC8OByAlFw3AmJ.svg)](https://asciinema.org/a/oBkYQoK3VvNPC8OByAlFw3AmJ)
+[![asciicast](https://asciinema.org/a/CQqkkIfX9i9fHz4hPf1ZqAyuI.svg)](https://asciinema.org/a/CQqkkIfX9i9fHz4hPf1ZqAyuI)
