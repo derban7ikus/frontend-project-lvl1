@@ -22,7 +22,7 @@ const questionAndAnswer = () => {
     case '-':
       correctAnswer = randomNumber1 - randomNumber2;
       break;
-    case '*':
+    default:
       correctAnswer = randomNumber1 * randomNumber2;
   }
 
